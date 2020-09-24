@@ -1,0 +1,3 @@
+nginx -c config/nginx.conf -p nginx
+spawn-fcgi -p 8000 -n build/bin/engine9d 
+
